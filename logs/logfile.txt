@@ -1,0 +1,472 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804154</millis>
+  <sequence>0</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>POST / HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804160</millis>
+  <sequence>1</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /redirect HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804164</millis>
+  <sequence>2</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET / HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804169</millis>
+  <sequence>3</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /method_options HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804172</millis>
+  <sequence>4</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.png HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804175</millis>
+  <sequence>5</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /patch_content.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804178</millis>
+  <sequence>6</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /file1 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804180</millis>
+  <sequence>7</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /foobar HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804182</millis>
+  <sequence>8</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /parameters HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804185</millis>
+  <sequence>9</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.jpeg HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804188</millis>
+  <sequence>10</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.gif HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804192</millis>
+  <sequence>11</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /file2 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804195</millis>
+  <sequence>12</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /partial_content.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804197</millis>
+  <sequence>13</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>POST /file1 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804200</millis>
+  <sequence>14</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /text-file.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804203</millis>
+  <sequence>15</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /logs HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:43:24</date>
+  <millis>1450467804206</millis>
+  <sequence>16</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /logs HTTP/1.1
+Authorization: Basic YWRtaW46aHVudGVyMg==
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464790</millis>
+  <sequence>0</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>POST / HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464796</millis>
+  <sequence>1</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /redirect HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464798</millis>
+  <sequence>2</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET / HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464804</millis>
+  <sequence>3</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /method_options HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464807</millis>
+  <sequence>4</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.png HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464810</millis>
+  <sequence>5</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /patch_content.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464812</millis>
+  <sequence>6</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /file1 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464816</millis>
+  <sequence>7</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /foobar HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464819</millis>
+  <sequence>8</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /parameters HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464822</millis>
+  <sequence>9</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.jpeg HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464824</millis>
+  <sequence>10</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /image.gif HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464827</millis>
+  <sequence>11</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /file2 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464830</millis>
+  <sequence>12</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /partial_content.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464832</millis>
+  <sequence>13</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>POST /file1 HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464835</millis>
+  <sequence>14</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /text-file.txt HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464838</millis>
+  <sequence>15</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /logs HTTP/1.1
+</message>
+</record>
+<record>
+  <date>2015-12-18T13:54:24</date>
+  <millis>1450468464841</millis>
+  <sequence>16</sequence>
+  <logger>http.log</logger>
+  <level>INFO</level>
+  <class>server.ServerRunner</class>
+  <method>run</method>
+  <thread>11</thread>
+  <message>GET /logs HTTP/1.1
+Authorization: Basic YWRtaW46aHVudGVyMg==
+
+</message>
+</record>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!DOCTYPE log SYSTEM "logger.dtd">
+<log>
+</log>

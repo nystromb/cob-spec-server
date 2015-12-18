@@ -30,13 +30,13 @@ public class Main {
         Router.addRoute(new Route("/", new DirectoryHandler()));
 
         Router.addRoute(new Route("/file1", new FileHandler()));
-//
+
         Router.addRoute(new Route("/file2", new FileHandler()));
-//
+
         Router.addRoute(new Route("/image.png", new FileHandler()));
-//
+
         Router.addRoute(new Route("/image.jpeg", new FileHandler()));
-//
+
         Router.addRoute(new Route("/image.gif", new FileHandler()));
 
         Router.addRoute(new Route("/text-file.txt", new FileHandler()));
