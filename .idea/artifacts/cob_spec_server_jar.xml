@@ -3,7 +3,6 @@
     <output-path>$PROJECT_DIR$/</output-path>
     <root id="archive" name="cob-spec-server.jar">
       <element id="module-output" name="cob-spec-server" />
-      <element id="extracted-dir" path="$PROJECT_DIR$/../http-server.jar" path-in-jar="/" />
     </root>
   </artifact>
 </component>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="servertest.FileHandlerTest" tests="5" skipped="0" failures="0" errors="0" timestamp="2015-12-18T17:47:18" hostname="Brians-MacBook-Pro.local" time="0.005">
+  <properties/>
+  <testcase name="testReturns200OK" classname="servertest.FileHandlerTest" time="0.0"/>
+  <testcase name="testMethodNotAllowedForPutRequest" classname="servertest.FileHandlerTest" time="0.0"/>
+  <testcase name="testPatchContent" classname="servertest.FileHandlerTest" time="0.003"/>
+  <testcase name="testMethodNotAllowedForPostRequest" classname="servertest.FileHandlerTest" time="0.0"/>
+  <testcase name="testReturnsFile1Contents" classname="servertest.FileHandlerTest" time="0.001"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
