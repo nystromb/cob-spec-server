@@ -10,7 +10,7 @@ repositories {
 
 dependencies {
     testCompile group: 'junit', name: 'junit', version: '4.11'
-    compile files('lib/httpserver.jar')
+    compile files('lib/http-server/build/libs/httpserver.jar')
 }
 
 jar {
