@@ -1,8 +1,8 @@
 # Cob Spec Java Server
 
-This is the repo that adheres to the cob spec acceptance suite. 
+This is the repo that adheres to the [cob spec acceptance suite](https://github.com/8thlight/cob_spec) . 
 
-# Getting started
+## Getting started
 
 1. Clone the repo
   * `git clone https://github.com/nystromb/cob-spec-server.git`
@@ -20,8 +20,10 @@ This is the repo that adheres to the cob spec acceptance suite.
 ## Starting the server
 Now run `java -jar build/libs/cob-spec-server.jar -p YOUR_PORT` 
 
-By default it runs on port 5000, so you may run the this command without the -p option. The server also serves files from the /public/ directory in the project root. You may also tell the server to serve up a different directory by passing in different directory when you go to run your server. 
+## Command line options
+
+By default it runs on port 5000, so you may run the this command without the -p option. The server also serves files from the /public/ directory in the project root. You may also tell the server to serve up a different directory by passing in the directory of your choice when you go to run your server. 
 
 For example: `java -jar build/libs/cob-spec-server.jar -d /your/public/directory/`
 
-Visit the server in your browser at localhost:YOUR_PORT
+Visit the server in your browser at `http://localhost:YOUR_PORT`
