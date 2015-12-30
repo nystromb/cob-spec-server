@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="LogsHandlerTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2015-12-30T23:09:46" hostname="scar.local" time="0.073">
+  <properties/>
+  <testcase name="testLogsHandler" classname="LogsHandlerTest" time="0.073"/>
+  <system-out><![CDATA[]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
