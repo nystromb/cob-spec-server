@@ -28,3 +28,7 @@ public class LogsHandlerTest {
         assertEquals("HTTP/1.1 200 OK", response.statusLine);
     }
 }
+
+// Wouldn't you want to test that the handler returns logs in the response body?
+
+// LogsHandler could be part of core server - I don't think it's necessarily cob_spec specific

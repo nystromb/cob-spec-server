@@ -12,6 +12,7 @@ import java.util.logging.Logger;
 
 public class Main {
     public static Logger logger = Logger.getLogger( "http.log" );
+
     public static void main(String[] args){
         Settings.parse(args);
         Settings.setUpLogger();
@@ -57,3 +58,10 @@ public class Main {
     }
 }
 
+// Might want to handle an IOException differently - kind of surprised creating a HTTPServer could
+// raise one. Or calling start on one. Might be better for those to handle IOExceptions closer to
+// the actions that could actually throw them.
+
+// Adding routes is nice and clean.
+
+// Pretty easy to follow Main logic. Might want to extract logging into a small private method.

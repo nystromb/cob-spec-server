@@ -13,3 +13,9 @@ public class LogsHandler extends ApplicationController {
         return new Response.Builder(200, logs).build();
     }
 }
+
+// Looks legit. Not sure yet what's happening behind the scenes to the logs being passed in the
+// Builder constructor though.
+
+// You might be able to get the contents of the logfile in a more terse way too - I don't remember
+// having quite such a long line just to read from a file.

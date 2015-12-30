@@ -12,7 +12,7 @@ import static org.junit.Assert.assertFalse;
 import static org.junit.Assert.assertTrue;
 
 public class ResourceTest {
-    ApplicationController handler = new Resource();;
+    ApplicationController handler = new Resource();
 
     @Before
     public void setUp() throws Exception{
@@ -81,3 +81,21 @@ public class ResourceTest {
         assertTrue(response.headers.containsValue("GET,HEAD,POST,OPTIONS,PUT"));
     }
 }
+
+// handler declaration outside of methods unecessary
+
+// builder pattern might be helpful, given all the set up of request objects
+
+// tests are rather long, and intermingling assertions with further setup/operations is generally
+// not a good idea - violates arrange act assert
+
+// no test of options response status
+
+// no test of get request
+
+// test of delete request is incomplete - no check that data was deleted
+
+// I like that you test put/post/delete separately
+
+// tests would be better if you changed Resource to accept data object in constructor, and then
+// check the injected data object for the expected change after making a request
