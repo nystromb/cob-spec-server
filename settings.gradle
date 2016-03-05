@@ -1,2 +1,3 @@
 rootProject.name = 'cob-spec-server'
 
+include 'http-server'
