@@ -12,7 +12,7 @@ import java.util.logging.Logger;
 
 public class Main {
     public static Logger logger = Logger.getLogger( "http.log" );
-    public static void main(String[] args){
+    public static void main(String[] args) {
         Settings.parse(args);
         Settings.setUpLogger();
         addMyRoutes();
