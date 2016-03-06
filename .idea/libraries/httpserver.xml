@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="httpserver">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/http-server/build/libs/httpserver.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
